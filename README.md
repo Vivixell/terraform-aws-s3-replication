@@ -1,6 +1,6 @@
 # Getting Started with Multiple Providers in Terraform
 
-![baanner](https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi2pxjitliqw8okgq8rpj.png)
+![banner](https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi2pxjitliqw8okgq8rpj.png)
 
 ## Overview
 Every real-world cloud infrastructure eventually outgrows a single region. Whether you are building a multi-region Active-Passive disaster recovery architecture, deploying global CloudFront endpoints, or managing resources across different AWS accounts, a single default Terraform provider won't cut it. 
@@ -49,7 +49,10 @@ When `terraform init` resolves your version constraints, it generates a `.terraf
 
 3. **Hashes:** Cryptographic checksums of the provider binary for multiple operating systems.
 
+
 **Best Practice:** You must commit this file to Git! It guarantees that your CI/CD pipeline and every engineer on your team downloads the exact same provider version, preventing the classic "It works on my machine" deployment failure.
+
+
 ---
 
 ## Prerequisites for the Lab
