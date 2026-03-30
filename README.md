@@ -3,7 +3,7 @@
 ## Overview
 Every real-world cloud infrastructure eventually outgrows a single region. Whether you are building a multi-region Active-Passive disaster recovery architecture, deploying global CloudFront endpoints, or managing resources across different AWS accounts, a single default Terraform provider won't cut it. 
 
-For Day 14 of my 30-Day Terraform Challenge, I dove deep into Terraform's provider system. In this guide, I will break down how providers actually work under the hood, how to lock their versions, and walk you through a step-by-step implementation of cross-region S3 replication using the Provider Alias pattern.
+For today's post of my 30-Day Building with Terraform Challenge, I dove deep into Terraform's provider system. In this guide, I will break down how providers actually work under the hood, how to lock their versions, and walk you through a step-by-step implementation of cross-region S3 replication using the Provider Alias pattern.
 
 ## What is a Provider, Really?
 Terraform Core is essentially just a parsing engine. It reads your HCL code and builds a dependency graph. It doesn't actually know how to talk to AWS, Azure, or Kubernetes. 
