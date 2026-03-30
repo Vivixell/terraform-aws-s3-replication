@@ -1,5 +1,7 @@
 # Getting Started with Multiple Providers in Terraform
 
+![baanner](https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi2pxjitliqw8okgq8rpj.png)
+
 ## Overview
 Every real-world cloud infrastructure eventually outgrows a single region. Whether you are building a multi-region Active-Passive disaster recovery architecture, deploying global CloudFront endpoints, or managing resources across different AWS accounts, a single default Terraform provider won't cut it. 
 
@@ -68,8 +70,8 @@ Here is how to run my Multi-Region S3 Disaster Recovery architecture.
 Clone the project and navigate to the directory:
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/terraform-aws-multiple-providers.git](https://github.com/YOUR_USERNAME/terraform-aws-multiple-providers.git)
-cd terraform-aws-multiple-providers
+git clone https://github.com/Vivixell/terraform-aws-s3-replication
+cd terraform-aws-s3-replication
 ```
 
 ### Step 2: Understand the Providers (`providers.tf`)
